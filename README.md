@@ -1,10 +1,15 @@
 📊 Global Superstore Sales Performance Dashboard
 
-An interactive Excel dashboard analyzing 51,291+ sales transaction records from a global retail/superstore dataset spanning 2012–2015, covering orders across 4 regions/markets (Africa, Asia Pacific, Europe, LATAM, USCA) and multiple countries.
+An interactive Excel dashboard analyzing 51,291+ sales transaction records from a global retail/superstore dataset spanning 2012–2015, covering orders across multiple regions and markets (Africa, Asia Pacific, Europe, LATAM, USCA).
+
+⚠️ Note: GitHub's built-in file viewer can't render this Excel file inline due to its size and complexity (pivot tables, slicers, multiple sheets). Click Download / View Raw to open it in Excel — everything works perfectly there. See the screenshot below for a preview.
+
+📸 Dashboard Preview
+<img width="1920" height="1020" alt="Screenshot 2026-09-10 201243" src="https://github.com/user-attachments/assets/caa91cd2-d020-4442-b1f4-315bb99db781" />
 
 🎯 Overview
 
-This dashboard transforms raw transactional data into an interactive, executive-level view of sales, profit, and operational performance — enabling stakeholders to identify trends, top-performing regions/categories, and areas of concern (like negative profit orders) at a glance.
+This dashboard transforms raw transactional data into an interactive, executive-level view of sales, profit, and operational performance — enabling stakeholders to identify trends, top-performing regions/categories, and areas of concern (like negative-profit orders) at a glance.
 
 📁 Dataset
 Records: 51,291 rows
@@ -29,3 +34,10 @@ Identifies best/worst performing regions and product categories
 Flags high-shipping-cost, low-profit segments for cost optimization
 Tracks seasonal profit trends to support inventory/marketing planning
 Highlights discount impact on profitability across years
+📂 How to Use
+Download Final_Project (1).xlsx from this repo (use "View Raw" if GitHub's preview fails to load)
+Open in Microsoft Excel
+Go to the Dashboard sheet
+Use the slicers (Order Date, Market, Ship Mode, Order Priority, Category) to filter and explore the data interactively
+
+
